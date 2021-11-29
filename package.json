@@ -6,7 +6,7 @@
     "build:prod:ci": "npm run clean && npm install && npm run build:prod",
     "build:dev": "npm run build-angularsdk",
     "build:dev:ci": "npm run clean && npm install && npm run build:dev",
-    "start-dev": "http-server ./dist --port 3500 --cors --proxy http://localhost:3500?",
+    "start-dev": "http-server ./dist --cors",
     "start-dev-https": "http-server ./dist --ssl --cert private.pem --key private.key --port 3500 --cors --proxy https://localhost:3500?",
     "start-prod": "http-server ./dist --port 3500 --gzip --brotli --cors --proxy http://localhost:3500?",
     "start-prod-https": "http-server ./dist --ssl --cert private.pem --key private.key --port 3500 --gzip --brotli --cors --proxy https://localhost:3500?",

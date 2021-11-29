@@ -4,9 +4,9 @@
     "comment_authConfig": "authConfig is the block for authentication config entries",
 
     "accessAuthUris_comment": "Full paths to Infinity server access token and authorization APIs",
-    "accessTokenUri": "https://localhost:1080/prweb/PRRestService/oauth2/v1/token",
-    "authorizationUri": "https://localhost:1080/prweb/PRRestService/oauth2/v1/authorize",
-    "authorityUri": "https://localhost:1080/prweb/PRRestService/oauth2/v1",
+    "accessTokenUri": "https://dx.pegatsdemo.com/prweb/PRRestService/oauth2/v1/token",
+    "authorizationUri": "https://dx.pegatsdemo.com/prweb/PRRestService/oauth2/v1/authorize",
+    "authorityUri": "https://dx.pegatsdemo.com/prweb/PRRestService/oauth2/v1",
     
     "authQueryParams_comment": "Additional parameters that are passed to the OpenID Connect (OIDC) Manager",
     "authQueryParams": { "authentication_service": "pega" },
@@ -24,7 +24,7 @@
     "comment_serverConfig": "serverConfig is the block for SDK Content Server config entries",
     
     "infinityRestServerUrl_comment": "Full path to Infinity REST server",
-    "infinityRestServerUrl": "https://localhost:1080/prweb",
+    "infinityRestServerUrl": "https://dx.pegatsdemo.com/prweb",
 
     "sdkContentServerUrl_comment": "If specified, the given URL will be used. If left blank, window.location.origin will be used.",
     "sdkContentServerUrl": "",
