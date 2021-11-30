@@ -3,6 +3,8 @@
 # Quickstart
 
 Get started by starting a Gitpod environment here -> https://gitpod.io/#https://github.com/jeroengeerdink/PegaDXAngularSDK You may be asked to identify yourself if a first time gitpod user.
+You will have to add the original constellation code in a "constellation" folder, as this is licensed. You can download it here.
+https://community.pega.com/marketplace/components/angular-sdk
 
 
 # Angular SDK
