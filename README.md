@@ -7,7 +7,7 @@ You will have to add the original constellation code in a "constellation" folder
 https://community.pega.com/marketplace/components/angular-sdk
 
 Steps:
-- Downlaod constellation code
+- Download constellation code
 - Drop in constellation folder
 - In the console
    - $ npm run build:dev:ci
