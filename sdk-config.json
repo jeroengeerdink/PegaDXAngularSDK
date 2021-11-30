@@ -4,9 +4,9 @@
     "comment_authConfig": "authConfig is the block for authentication config entries",
 
     "accessAuthUris_comment": "Full paths to Infinity server access token and authorization APIs",
-    "accessTokenUri": "https://dx.pegatsdemo.com/prweb/PRRestService/oauth2/v1/token",
-    "authorizationUri": "https://dx.pegatsdemo.com/prweb/PRRestService/oauth2/v1/authorize",
-    "authorityUri": "https://dx.pegatsdemo.com/prweb/PRRestService/oauth2/v1",
+    "accessTokenUri": "https://dx2.pegatsdemo.com/prweb/PRRestService/oauth2/v1/token",
+    "authorizationUri": "https://dx2.pegatsdemo.com/prweb/PRRestService/oauth2/v1/authorize",
+    "authorityUri": "https://dx2.pegatsdemo.com/prweb/PRRestService/oauth2/v1",
     
     "authQueryParams_comment": "Additional parameters that are passed to the OpenID Connect (OIDC) Manager",
     "authQueryParams": { "authentication_service": "pega" },
@@ -14,7 +14,7 @@
     "mashupClient_comment": "Client ID and Client secret from the OAuth 2.0 Client Registration record used for mashup use case",
     "mashupClient_comment2": "See SDK Guide for instructions on how to generate and obtain the proper values for the following entries",
     "mashupClientId": "12595401538569726922",
-    "mashupClientSecret": "",
+    "mashupClientSecret": "90C7579FA5937B36EB3C0D57D97A8622",
     "mashupGrantType": "client_credentials",
     
     "portalClientId_comment": "Client ID from the OAuth 2.0 Client Registration record used for portal use case",
@@ -24,7 +24,7 @@
     "comment_serverConfig": "serverConfig is the block for SDK Content Server config entries",
     
     "infinityRestServerUrl_comment": "Full path to Infinity REST server",
-    "infinityRestServerUrl": "https://dx.pegatsdemo.com/prweb",
+    "infinityRestServerUrl": "https://dx2.pegatsdemo.com/prweb",
 
     "sdkContentServerUrl_comment": "If specified, the given URL will be used. If left blank, window.location.origin will be used.",
     "sdkContentServerUrl": "",
