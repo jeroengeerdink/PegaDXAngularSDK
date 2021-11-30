@@ -6,6 +6,13 @@ Get started by starting a Gitpod environment here -> https://gitpod.io/#https://
 You will have to add the original constellation code in a "constellation" folder, as this is licensed. You can download it here.
 https://community.pega.com/marketplace/components/angular-sdk
 
+Steps:
+- Downlaod constellation code
+- Drop in constellation folder
+- In the console
+   - $ npm run build:dev:ci
+   - $ npm run start-dev
+
 
 # Angular SDK
 
